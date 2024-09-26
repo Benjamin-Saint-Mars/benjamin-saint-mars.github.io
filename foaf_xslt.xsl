@@ -23,8 +23,19 @@
                     <p><strong>Nom de famille :</strong> <xsl:value-of select="//foaf:Person/foaf:familyName"/></p>
                     <p><strong>Pseudo :</strong> <xsl:value-of select="//foaf:Person/foaf:nick"/></p>
                     <p><strong>Genre :</strong> <xsl:value-of select="//foaf:Person/foaf:gender"/></p>
-                    <p><strong>Email :</strong> <a href="{//foaf:Person/foaf:mbox}"><xsl:value-of select="//foaf:Person/foaf:mbox"/></a></p>
-                    <p><strong>Page personnelle :</strong> <a href="{//foaf:Person/foaf:homepage}"><xsl:value-of select="//foaf:Person/foaf:homepage"/></a></p>
+                    <!-- Lien vers l'email -->
+                    <p><strong>Email :</strong> 
+                        <a href="{//foaf:Person/foaf:mbox/@rdf:resource}">
+                            <xsl:value-of select="substring-after(//foaf:Person/foaf:mbox/@rdf:resource, 'mailto:')"/>
+                        </a>
+                    </p>
+
+                    <!-- Lien vers la page personnelle -->
+                    <p><strong>Page personnelle :</strong> 
+                        <a href="{//foaf:Person/foaf:homepage/@rdf:resource}">
+                            <xsl:value-of select="//foaf:Person/foaf:homepage/@rdf:resource"/>
+                        </a>
+                    </p>
                     <p><strong>Titre :</strong> <xsl:value-of select="//foaf:Person/foaf:title"/></p>
                 </div>
             </body>
