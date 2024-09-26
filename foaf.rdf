@@ -19,5 +19,13 @@
         <foaf:gender>Male</foaf:gender>
         <!-- Une brève description -->
         <foaf:title>Maître de la Ligue Pokémon et Dovahkiin</foaf:title>
+        <foaf:knows>
+            <foaf:Person rdf:about="https://bmwahib.github.io/wahibbouchenaki.github.io/foaf.rdf">
+                <foaf:name>Wahib BOUCHENAKI</foaf:name>
+                <foaf:mbox rdf:resource="mailto:mohammed.bouchenaki@etudiant.univ-lr.fr"/>
+                <foaf:homepage rdf:resource="https://bmwahib.github.io/wahibbouchenaki.github.io/"/>
+                <foaf:nick>wahib</foaf:nick>
+            </foaf:Person>
+    </foaf:knows>
     </foaf:Person>
 </rdf:RDF>
