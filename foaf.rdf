@@ -26,22 +26,30 @@
                 <foaf:homepage rdf:resource="https://bmwahib.github.io/wahibbouchenaki.github.io/"/>
                 <foaf:nick>wahib</foaf:nick>
             </foaf:Person>
-    </foaf:knows>
-    <foaf:knows>
-            <foaf:Person rdf:about="https://liloumrchsn.github.io/foaf.rdf">
-                <foaf:name>Lilou MARCHESIN</foaf:name>
-                <foaf:mbox rdf:resource="mailto:lilou.marchesin@etudiant.univ-lr.fr"/>
-                <foaf:homepage rdf:resource="https://liloumrchsn.github.io/"/>
-                <foaf:nick>lilou</foaf:nick>
-            </foaf:Person>
-    </foaf:knows>
-    <foaf:knows>
-            <foaf:Person rdf:about="https://damchap.github.io/FOAF/foaf.rdf">
-                <foaf:name>Damien CHAPART</foaf:name>
-                <foaf:mbox rdf:resource="mailto:damien.chapart@etudiant.univ-lr.fr"/>
-                <foaf:homepage rdf:resource="https://damchap.github.io/FOAF/foaf.rdf"/>
-                <foaf:nick>damien</foaf:nick>
-            </foaf:Person>
-    </foaf:knows>
+        </foaf:knows>
+        <foaf:knows>
+                <foaf:Person rdf:about="https://liloumrchsn.github.io/foaf.rdf">
+                    <foaf:name>Lilou MARCHESIN</foaf:name>
+                    <foaf:mbox rdf:resource="mailto:lilou.marchesin@etudiant.univ-lr.fr"/>
+                    <foaf:homepage rdf:resource="https://liloumrchsn.github.io/"/>
+                    <foaf:nick>lilou</foaf:nick>
+                </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+                <foaf:Person rdf:about="https://damchap.github.io/FOAF/foaf.rdf">
+                    <foaf:name>Damien CHAPART</foaf:name>
+                    <foaf:mbox rdf:resource="mailto:damien.chapart@etudiant.univ-lr.fr"/>
+                    <foaf:homepage rdf:resource="https://damchap.github.io/FOAF/"/>
+                    <foaf:nick>damien</foaf:nick>
+                </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+                <foaf:Person rdf:about="https://lelika02.github.io/homepage/foaf.rdf">
+                    <foaf:name>Lelika TAGATAMANOGI</foaf:name>
+                    <foaf:mbox rdf:resource="mailto:lelika.tagatamanogi@etudiant.univ-lr.fr"/>
+                    <foaf:homepage rdf:resource="https://lelika02.github.io/homepage/"/>
+                    <foaf:nick>lelika</foaf:nick>
+                </foaf:Person>
+        </foaf:knows>
     </foaf:Person>
 </rdf:RDF>
